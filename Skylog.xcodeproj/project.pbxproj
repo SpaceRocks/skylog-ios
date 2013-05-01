@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A272B5C41730A86300F10F6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A272B5C31730A86300F10F6B /* UIKit.framework */; };
+		A272B5C61730A86300F10F6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A272B5C51730A86300F10F6B /* Foundation.framework */; };
+		A272B5C81730A86300F10F6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A272B5C71730A86300F10F6B /* CoreGraphics.framework */; };
+		A272B5CE1730A86300F10F6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A272B5CC1730A86300F10F6B /* InfoPlist.strings */; };
+		A272B5D01730A86300F10F6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A272B5CF1730A86300F10F6B /* main.m */; };
+		A272B5D41730A86300F10F6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A272B5D31730A86300F10F6B /* AppDelegate.m */; };
+		A272B5D61730A86300F10F6B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A272B5D51730A86300F10F6B /* Default.png */; };
+		A272B5D81730A86300F10F6B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A272B5D71730A86300F10F6B /* Default@2x.png */; };
+		A272B5DA1730A86300F10F6B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A272B5D91730A86300F10F6B /* Default-568h@2x.png */; };
+		A272B5E21730A86400F10F6B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A272B5E11730A86400F10F6B /* SenTestingKit.framework */; };
+		A272B5E31730A86400F10F6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A272B5C31730A86300F10F6B /* UIKit.framework */; };
+		A272B5E41730A86400F10F6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A272B5C51730A86300F10F6B /* Foundation.framework */; };
+		A272B5EC1730A86400F10F6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A272B5EA1730A86400F10F6B /* InfoPlist.strings */; };
+		A272B5EF1730A86400F10F6B /* SkylogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A272B5EE1730A86400F10F6B /* SkylogTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A272B5E51730A86400F10F6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A272B5B81730A86300F10F6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A272B5BF1730A86300F10F6B;
+			remoteInfo = Skylog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A272B5C01730A86300F10F6B /* Skylog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skylog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A272B5C31730A86300F10F6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A272B5C51730A86300F10F6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A272B5C71730A86300F10F6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A272B5CB1730A86300F10F6B /* Skylog-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Skylog-Info.plist"; sourceTree = "<group>"; };
+		A272B5CD1730A86300F10F6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A272B5CF1730A86300F10F6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A272B5D11730A86300F10F6B /* Skylog-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Skylog-Prefix.pch"; sourceTree = "<group>"; };
+		A272B5D21730A86300F10F6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A272B5D31730A86300F10F6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A272B5D51730A86300F10F6B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A272B5D71730A86300F10F6B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A272B5D91730A86300F10F6B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A272B5E01730A86400F10F6B /* SkylogTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkylogTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A272B5E11730A86400F10F6B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A272B5E91730A86400F10F6B /* SkylogTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SkylogTests-Info.plist"; sourceTree = "<group>"; };
+		A272B5EB1730A86400F10F6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A272B5ED1730A86400F10F6B /* SkylogTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkylogTests.h; sourceTree = "<group>"; };
+		A272B5EE1730A86400F10F6B /* SkylogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkylogTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A272B5BD1730A86300F10F6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A272B5C41730A86300F10F6B /* UIKit.framework in Frameworks */,
+				A272B5C61730A86300F10F6B /* Foundation.framework in Frameworks */,
+				A272B5C81730A86300F10F6B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A272B5DC1730A86400F10F6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A272B5E21730A86400F10F6B /* SenTestingKit.framework in Frameworks */,
+				A272B5E31730A86400F10F6B /* UIKit.framework in Frameworks */,
+				A272B5E41730A86400F10F6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A272B5B71730A86300F10F6B = {
+			isa = PBXGroup;
+			children = (
+				A272B5C91730A86300F10F6B /* Skylog */,
+				A272B5E71730A86400F10F6B /* SkylogTests */,
+				A272B5C21730A86300F10F6B /* Frameworks */,
+				A272B5C11730A86300F10F6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A272B5C11730A86300F10F6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A272B5C01730A86300F10F6B /* Skylog.app */,
+				A272B5E01730A86400F10F6B /* SkylogTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A272B5C21730A86300F10F6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A272B5C31730A86300F10F6B /* UIKit.framework */,
+				A272B5C51730A86300F10F6B /* Foundation.framework */,
+				A272B5C71730A86300F10F6B /* CoreGraphics.framework */,
+				A272B5E11730A86400F10F6B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A272B5C91730A86300F10F6B /* Skylog */ = {
+			isa = PBXGroup;
+			children = (
+				A272B5D21730A86300F10F6B /* AppDelegate.h */,
+				A272B5D31730A86300F10F6B /* AppDelegate.m */,
+				A272B5CA1730A86300F10F6B /* Supporting Files */,
+			);
+			path = Skylog;
+			sourceTree = "<group>";
+		};
+		A272B5CA1730A86300F10F6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A272B5CB1730A86300F10F6B /* Skylog-Info.plist */,
+				A272B5CC1730A86300F10F6B /* InfoPlist.strings */,
+				A272B5CF1730A86300F10F6B /* main.m */,
+				A272B5D11730A86300F10F6B /* Skylog-Prefix.pch */,
+				A272B5D51730A86300F10F6B /* Default.png */,
+				A272B5D71730A86300F10F6B /* Default@2x.png */,
+				A272B5D91730A86300F10F6B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A272B5E71730A86400F10F6B /* SkylogTests */ = {
+			isa = PBXGroup;
+			children = (
+				A272B5ED1730A86400F10F6B /* SkylogTests.h */,
+				A272B5EE1730A86400F10F6B /* SkylogTests.m */,
+				A272B5E81730A86400F10F6B /* Supporting Files */,
+			);
+			path = SkylogTests;
+			sourceTree = "<group>";
+		};
+		A272B5E81730A86400F10F6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A272B5E91730A86400F10F6B /* SkylogTests-Info.plist */,
+				A272B5EA1730A86400F10F6B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A272B5BF1730A86300F10F6B /* Skylog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A272B5F21730A86400F10F6B /* Build configuration list for PBXNativeTarget "Skylog" */;
+			buildPhases = (
+				A272B5BC1730A86300F10F6B /* Sources */,
+				A272B5BD1730A86300F10F6B /* Frameworks */,
+				A272B5BE1730A86300F10F6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skylog;
+			productName = Skylog;
+			productReference = A272B5C01730A86300F10F6B /* Skylog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A272B5DF1730A86400F10F6B /* SkylogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A272B5F51730A86400F10F6B /* Build configuration list for PBXNativeTarget "SkylogTests" */;
+			buildPhases = (
+				A272B5DB1730A86400F10F6B /* Sources */,
+				A272B5DC1730A86400F10F6B /* Frameworks */,
+				A272B5DD1730A86400F10F6B /* Resources */,
+				A272B5DE1730A86400F10F6B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A272B5E61730A86400F10F6B /* PBXTargetDependency */,
+			);
+			name = SkylogTests;
+			productName = SkylogTests;
+			productReference = A272B5E01730A86400F10F6B /* SkylogTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A272B5B81730A86300F10F6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jason English";
+			};
+			buildConfigurationList = A272B5BB1730A86300F10F6B /* Build configuration list for PBXProject "Skylog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A272B5B71730A86300F10F6B;
+			productRefGroup = A272B5C11730A86300F10F6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A272B5BF1730A86300F10F6B /* Skylog */,
+				A272B5DF1730A86400F10F6B /* SkylogTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A272B5BE1730A86300F10F6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A272B5CE1730A86300F10F6B /* InfoPlist.strings in Resources */,
+				A272B5D61730A86300F10F6B /* Default.png in Resources */,
+				A272B5D81730A86300F10F6B /* Default@2x.png in Resources */,
+				A272B5DA1730A86300F10F6B /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A272B5DD1730A86400F10F6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A272B5EC1730A86400F10F6B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A272B5DE1730A86400F10F6B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A272B5BC1730A86300F10F6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A272B5D01730A86300F10F6B /* main.m in Sources */,
+				A272B5D41730A86300F10F6B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A272B5DB1730A86400F10F6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A272B5EF1730A86400F10F6B /* SkylogTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A272B5E61730A86400F10F6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A272B5BF1730A86300F10F6B /* Skylog */;
+			targetProxy = A272B5E51730A86400F10F6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A272B5CC1730A86300F10F6B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A272B5CD1730A86300F10F6B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A272B5EA1730A86400F10F6B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A272B5EB1730A86400F10F6B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A272B5F01730A86400F10F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A272B5F11730A86400F10F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A272B5F31730A86400F10F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Skylog/Skylog-Prefix.pch";
+				INFOPLIST_FILE = "Skylog/Skylog-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A272B5F41730A86400F10F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Skylog/Skylog-Prefix.pch";
+				INFOPLIST_FILE = "Skylog/Skylog-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A272B5F61730A86400F10F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Skylog.app/Skylog";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Skylog/Skylog-Prefix.pch";
+				INFOPLIST_FILE = "SkylogTests/SkylogTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A272B5F71730A86400F10F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Skylog.app/Skylog";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Skylog/Skylog-Prefix.pch";
+				INFOPLIST_FILE = "SkylogTests/SkylogTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A272B5BB1730A86300F10F6B /* Build configuration list for PBXProject "Skylog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A272B5F01730A86400F10F6B /* Debug */,
+				A272B5F11730A86400F10F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A272B5F21730A86400F10F6B /* Build configuration list for PBXNativeTarget "Skylog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A272B5F31730A86400F10F6B /* Debug */,
+				A272B5F41730A86400F10F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A272B5F51730A86400F10F6B /* Build configuration list for PBXNativeTarget "SkylogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A272B5F61730A86400F10F6B /* Debug */,
+				A272B5F71730A86400F10F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A272B5B81730A86300F10F6B /* Project object */;
+}
